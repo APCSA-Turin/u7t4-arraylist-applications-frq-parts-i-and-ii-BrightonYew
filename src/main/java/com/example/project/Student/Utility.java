@@ -6,7 +6,7 @@ public class Utility {
 
     public static ArrayList<Student> sortStudents(ArrayList<Student> list){
         ArrayList<Student> newarr = new ArrayList<Student>();
-        Student earliestStudent = new Student("ZZZZZZZZZZZZZZZZZZZ", "ZZZZZZZZZZZZZZZZZZZZZZZZ", 1);
+        Student earliestStudent = new Student("ZZZZZZZZZZZZZZZZZZZ", "ZZZZZZZZZZZZZZZZZZZZZZZZ", 1);//sets the comparasion to a insanlly easy to override student object
         int removeIndex = 0;
 
         boolean lastEqual = false; //these are booleans to make sure other comparasions don't equal
